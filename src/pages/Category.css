@@ -1,0 +1,14 @@
+.category-page {
+    padding: 60px 20px;
+}
+
+.category-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.category-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}

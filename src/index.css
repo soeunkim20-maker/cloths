@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #2b2b2b;
+  --bg-color: #e0f7fa; /* Light Blue / Sky Blue */
+  --accent-color: #00bcd4;
+  --text-color: #333;
+  --header-height: 80px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
