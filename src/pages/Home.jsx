@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="container">
                     <h1 className="hero-title">Discover Your Air Style</h1>
                     <p className="hero-subtitle">Premium fashion for the modern era.</p>
-                    <Link to="/product/1" className="cta-button">Shop Now</Link>
+                    <Link to="/category/tops" className="cta-button">Shop Now</Link>
                 </div>
             </section>
 

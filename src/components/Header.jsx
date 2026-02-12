@@ -19,7 +19,11 @@ const Header = () => {
                 <div className="header-actions">
                     <Link to="/product/1" className="auth-link">Login</Link>
                     <Link to="/product/1" className="auth-link">Sign Up</Link>
-                    <button className="icon-btn">🔍</button>
+                    <div className="search-container">
+                        <input type="text" placeholder="Search..." className="search-input" />
+                        <button className="icon-btn">🔍</button>
+                    </div>
+
                     <button className="icon-btn">🛒</button>
                 </div>
             </div>
